@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi portafolio</title>
+    <link rel="icon" type="image/x-icon" href="img/ProfileShaun.jpg">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: rgb(54, 107, 107);
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    <h1 id="titulo">Portafolio de Alex Cabo </h1>
+    <h2>Desarrollador web en formación</h2>
+    <hr>
+    <h3>Sobre mi</h3>
+    <p>Mi nombre es Alex y estoy estudiando Desarrollo y Aplicaciones Web para en un futuro trabajar de diseñador
+        web.<br>
+        Esta afición vino por intentar crear un pequeño juego con el motor de RPG Maker.</p>
+    <h4>Mis aficiones:</h4>
+    <ul>
+        <li>Lectura</li>
+        <li>Escuchar música</li>
+        <li>Videojuegos</li>
+        <ul>
+            <li>RPG</li>
+            <li>Indies</li>
+            <li>Clásicos retro</li>
+        </ul>
+    </ul>
+    <hr>
+    <h3>Proyectos</h3>
+    <p>He trabajado en varios proyectos personales que me han ayudado a mejorar mis habilidades en programación. El
+        último todavía está en desarrollo.</p>
+    <h4>Mis tres proyectos principales:</h4>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%
+        }
+
+        td,
+        th {
+            border: 1px solid #4b4343;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Tecnología usada</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>Shaun</td>
+            <td>RPG Maker, JavaScript, HTML</td>
+            <td>Finalizado</td>
+
+
+        </tr>
+        <tr>
+            <td>Shaun 2: Sombras del Velo</td>
+            <td>Unity, Photoshop, Audacity</td>
+            <td>En acceso anticipado</td>
+        </tr>
+
+        <tr>
+            <td>Nexus</td>
+            <td>HTMTL, CSS, JavaScript</td>
+            <td>En desarrollo</td>
+        </tr>
+
+    </table>
+    <hr>
+    <h3>Multimedia</h3>
+    <p>Pequeño video del proyecto Shaun.</p>
+    <video width="320" height="240" controls>
+        <source src="video/Monedas.mp4" type="video/mp4">
+        Your browser does not support the video tag
+    </video>
+    <br>
+    <p>Imagen promocional del proyecto creado por IA</p>
+    <img src="img/Shaun.png" width="400" height="400" alt="No se puede mostrar la imagen">
+    <p>Puedes usar este <a href="https://shaungame.netlify.app/" target="_blank">enlace</a> si quieres probar el
+        proyecto.</p> <!--Añadimos blank para que abra en otra página-->
+    <hr>
+    <footer>
+        <h3>Contacto</h3>
+        <p>Si quieres ponerte en contacto conmigo, rellena este breve fomulario</p>
+        <form>
+            <!--Añadimos for por si el usuario hace click a "Nombre" pueda escribir igualmente, es una facilidad-->
+            <!--Placeholder es el texto sombreado que ayuda al usuario-->
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Inserte su nombre">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Escriba su correo">
+            <br>
+            <label for="comentario"></label><!--El comentario lo dejamos en blanco para que no aparezca en la web-->
+            <textarea cols="50" rows="10" id="comentario" placeholder="Inserte aquí su comentario"></textarea>
+            <br>
+            <button>
+                <name>Enviar</name>
+            </button>
+        </form>
+        <h3>Torre Eiffel</h3>
+        <p>¡Reserva una visita guiada por solo 25&euro;!</p>
+        <!--Lenguaje especial para introducir símbolos. El iframe puede copiarse de Google Maps, pero puedes ajustarlo.-->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9914410253414!2d2.2919063767559926!3d48.858373600707324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sTorre%20Eiffel!5e0!3m2!1ses!2ses!4v1760092696159!5m2!1ses!2ses"
+            width="500" height="450" style="border: 1px;;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p><a href="https://www.google.com/maps">Google Maps</a></p>
+
+
+        <a href="#titulo">Ir arriba</a>
+    </footer>
+
+
+
+
+</body>
+
+</html>
